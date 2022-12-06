@@ -58,6 +58,7 @@ Awesome Cloud Security 是一个用来收集云原生安全研究期间发现的
 ### 2.4 Top  Cloud Security Risks
 
 * [OWASP Cloud Top 10](https://owasp.org/www-pdf-archive/OWASP_Cloud_Top_10.pdf)
+* [Top Threats to Cloud Computing](https://cloudsecurityalliance.org/research/topics/top-threats/)
 * [风险最高的10种AWS配置错误](https://mp.weixin.qq.com/s/quIpapbkFNay0JtUK4wODQ) 
 
 
@@ -77,6 +78,8 @@ Awesome Cloud Security 是一个用来收集云原生安全研究期间发现的
 ## 3 Cloud Security Report:books:
 
 * [2021 AWS Cloud Security Report](https://www.bankinfosecurity.com/whitepapers/2021-aws-cloud-security-report-w-9310)
+* [2022 Cloud Security Report](https://cloud.connect.isc2.org/cloud-security-report)
+* [SANS 2022 Cloud Security Survey](https://www.sans.org/webcasts/sans-2022-cloud-security-survey/)
 
 ## 4 Cloud Management Panel :books:
 

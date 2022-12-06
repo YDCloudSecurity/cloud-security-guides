@@ -217,7 +217,7 @@ Awesome Cloud Security 是一个用来收集云计算安全研究期间发现的
 
 ## 7 CSP Security:books:
 
-###7.1 AWS
+### 7.1 AWS
 
 * [Overiew of AWS Security](https://aws.amazon.com/security/)
 * [AWS-IAM-Privilege-Escalation by RhinoSecurityLabs](https://github.com/RhinoSecurityLabs/AWS-IAM-Privilege-Escalation)

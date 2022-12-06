@@ -1,5 +1,3 @@
-"# awesome-cloud-security" 
-
 <h1 align="center">Awesome Cloud Security </h1>
 <p align="center">
 
@@ -187,6 +185,19 @@ Awesome Cloud Security 是一个用来收集云原生安全研究期间发现的
 - [Exposed Redis Instances Abused for Remote Code Execution, Cryptocurrency Mining](https://www.trendmicro.com/en_au/research/20/d/exposed-redis-instances-abused-for-remote-code-execution-cryptocurrency-mining.html)
 - [Redis CSRF漏洞分析及云数据库Redis版安全措施介绍](https://help.aliyun.com/document_detail/60703.html)
 
+* [aws-allowlister](https://github.com/salesforce/aws-allowlister)
+* [binaryalert](https://github.com/airbnb/binaryalert)
+* [cloudsplaining](https://github.com/salesforce/cloudsplaining)
+* [Cloud Guardrails](https://github.com/salesforce/cloud-guardrails)
+* [Function Shield](https://github.com/puresec/FunctionShield)
+* [FestIN](https://github.com/cr0hn/festin)
+* [GCPBucketBrute](https://github.com/RhinoSecurityLabs/GCPBucketBrute)
+* [IAM Zero](https://github.com/common-fate/iamzero)
+* [Lambda Guard](https://github.com/Skyscanner/LambdaGuard)
+* [Policy Sentry](https://github.com/salesforce/policy_sentry)
+* [S3 Inspector](https://github.com/kromtech/s3-inspector)
+* [Serverless Goat](https://github.com/OWASP/Serverless-Goat)
+* [SkyArk](https://github.com/cyberark/SkyArk)
 
 
 ## 6 Cloud Infrastructure Panel:books:
@@ -195,17 +206,138 @@ Awesome Cloud Security 是一个用来收集云原生安全研究期间发现的
 
 * [云原生之容器安全实践](https://tech.meituan.com/2020/03/12/cloud-native-security.html)
 * [Docker 容器最佳安全实践 白皮书](https://www.dosec.cn/dosecwp.pdf)
-
 * [Kubernetes threat landscape](https://sysdig.com/wp-content/uploads/2019/06/infographic-kubernetes-threat-landscape.pdf)
 * [k0otkit：针对K8s集群的通用后渗透控制技术](https://vipread.com/library/topic/3376)
 * [Hacking Kubernetes](https://www.oreilly.com/library/view/hacking-kubernetes/9781492081722/ch01.html)
 * [k8s-threat-model](https://github.com/cncf/financial-user-group/tree/main/projects/k8s-threat-model)
 * [红蓝对抗中的云原生漏洞挖掘及利用实录](https://mp.weixin.qq.com/s/Aq8RrH34PTkmF8lKzdY38g)
 
-## 7 Tools :hammer_and_wrench:
+## 7 CSP Security:books:
 
-* [云安全工具项目地址]()
+###7.1 AWS
 
-## 8 云厂商漏洞 :books:
+* [Overiew of AWS Security](https://aws.amazon.com/security/)
+* [AWS-IAM-Privilege-Escalation by RhinoSecurityLabs](https://github.com/RhinoSecurityLabs/AWS-IAM-Privilege-Escalation)
+* [MITRE ATT&CK Matrices of AWS](https://attack.mitre.org/matrices/enterprise/cloud/aws/)
+* [AWS security workshops](https://github.com/aws-samples/aws-security-workshops)
+* [ThreatModel for Amazon S3](https://github.com/trustoncloud/threatmodel-for-aws-s3)
 
-* [云安全工具项目地址]()
+### 7.2 Azure
+
+*  [Overiew of Azure Security](https://azure.microsoft.com/en-us/overview/security/)
+*  [Azure security fundamentals](https://docs.microsoft.com/en-us/azure/security/fundamentals/)
+*  [MicroBurst by NetSPI](https://github.com/NetSPI/MicroBurst)
+*  [MITRE ATT&CK Matrices of Azure](https://attack.mitre.org/matrices/enterprise/cloud/azure/)
+*  [Azure security center workflow automation](https://github.com/Azure/Azure-Security-Center/tree/master/Workflow%20automation)
+
+### 7.3 GCP
+
+*  [Overiew of GCP Security](https://cloud.google.com/security)
+*  [GKE security scenarios demo](https://github.com/GoogleCloudPlatform/gke-security-scenarios-demo)
+*  [MITRE ATT&CK Matrices of GCP](https://attack.mitre.org/matrices/enterprise/cloud/gcp/)
+*  [Security response automation](https://github.com/GoogleCloudPlatform/security-response-automation)
+
+### 7.4 Others
+
+*  [Cloud Security Research by RhinoSecurityLabs](https://github.com/RhinoSecurityLabs/Cloud-Security-Research) 
+*  [CSA cloud security guidance v4](https://cloudsecurityalliance.org/artifacts/security-guidance-v4/)
+*  [Appsecco provides training](https://github.com/appsecco/breaking-and-pwning-apps-and-servers-aws-azure-training)
+*  [Cloud Risk Encyclopedia by Orca Security](https://orca.security/resources/cloud-risk-encyclopedia/): 900+ documented cloud security risks, with ability to filter by cloud vendor, compliance framework, risk category, and criticality.
+
+## 8 Tools :hammer_and_wrench:
+
+## 8.1 Infrastructure Tools
+
+* [cloud_enum](https://github.com/initstring/cloud_enum):多云 OSINT 工具。枚举 AWS、Azure 和 Google Cloud 中的公共资源
+* [nuvola](https://github.com/primait/nuvola.git):nuvola是一款功能强大的针对AWS环境的自动化安全分析工具，该工具可以使用通过Yaml语句创建的简单的预定义可扩展的自定义规则来转储AWS环境中的各种数据，并对AWS环境的配置信息和服务进程执行自动/手动安全分析
+* [aws_pwn](https://github.com/dagrz/aws_pwn): A collection of AWS penetration testing junk
+* [aws_ir](https://github.com/ThreatResponse/aws_ir): Python installable command line utility for mitigation of instance and key compromises.
+* [aws-firewall-factory](https://github.com/globaldatanet/aws-firewall-factory): Deploy, update, and stage your WAFs while managing them centrally via FMS.
+* [aws-vault](https://github.com/99designs/aws-vault): A vault for securely storing and accessing AWS credentials in development environments.
+* [awspx](https://github.com/FSecureLABS/awspx): A graph-based tool for visualizing effective access and resource relationships within AWS.
+* [azucar](https://github.com/nccgroup/azucar): A security auditing tool for Azure environments
+* [checkov](https://github.com/bridgecrewio/checkov): A static code analysis tool for infrastructure-as-code.
+* [cloud-forensics-utils](https://github.com/google/cloud-forensics-utils): A python lib for DF & IR on the cloud.
+* [Cloud-Katana](https://github.com/Azure/Cloud-Katana): Automate the execution of simulation steps in multi-cloud and hybrid cloud environments.
+* [cloudlist](https://github.com/projectdiscovery/cloudlist): Listing Assets from multiple Cloud Providers.
+* [Cloud Sniper](https://github.com/cloud-sniper/cloud-sniper): A platform designed to manage Cloud Security Operations.
+* [Cloudmapper](https://github.com/duo-labs/cloudmapper): Analyze your AWS environments.
+* [Cloudmarker](https://github.com/cloudmarker/cloudmarker): A cloud monitoring tool and framework.
+* [Cloudsploit](https://github.com/aquasecurity/cloudsploit): Cloud security configuration checks.
+* [CloudQuery](https://github.com/cloudquery/cloudquery): Open source cloud asset inventory with set of pre-baked SQL [policies](https://hub.cloudquery.io/policies) for security and compliance.
+* [Cloud-custodian](https://github.com/cloud-custodian/cloud-custodian): Rules engine for cloud security, cost optimization, and governance.
+* [consoleme](https://github.com/Netflix/consoleme): A Central Control Plane for AWS Permissions and Access
+* [cs suite](https://github.com/SecurityFTW/cs-suite): Tool for auditing the security posture of AWS/GCP/Azure.
+* [Deepfence ThreatMapper](https://github.com/deepfence/ThreatMapper): Apache v2, powerful runtime vulnerability scanner for kubernetes, virtual machines and serverless.
+* [dftimewolf](https://github.com/log2timeline/dftimewolf): A multi-cloud framework for orchestrating forensic collection, processing and data export.
+* [diffy](https://github.com/Netflix-Skunkworks/diffy): Diffy is a digital forensics and incident response (DFIR) tool developed by Netflix.
+* [ElectricEye](https://github.com/jonrau1/ElectricEye): Continuously monitor AWS services for configurations.
+* [Forseti security](https://github.com/forseti-security/forseti-security): GCP inventory monitoring and policy enforcement tool.
+* [Hammer](https://github.com/dowjones/hammer): A multi-account cloud security tool for AWS. It identifies misconfigurations and insecure data exposures within most popular AWS resources.
+* [kics](https://github.com/Checkmarx/kics): Find security vulnerabilities, compliance issues, and infrastructure misconfigurations early in the development cycle of your infrastructure-as-code.
+* [Metabadger](https://github.com/salesforce/metabadger): Prevent SSRF attacks on AWS EC2 via automated upgrades to the more secure Instance Metadata Service v2 (IMDSv2).
+* [Open policy agent](https://www.openpolicyagent.org/): Policy-based control tool.
+* [pacbot](https://github.com/tmobile/pacbot): Policy as Code Bot.
+* [pacu](https://github.com/RhinoSecurityLabs/pacu): The AWS exploitation framework.
+* [Prowler](https://github.com/toniblyx/prowler): Command line tool for AWS Security Best Practices Assessment, Auditing, Hardening and Forensics Readiness Tool.
+* [ScoutSuite](https://github.com/nccgroup/ScoutSuite): Multi-cloud security auditing tool.
+* [Security Monkey](https://github.com/Netflix/security_monkey): Monitors AWS, GCP, OpenStack, and GitHub orgs for assets and their changes over time.
+* [SkyWrapper](https://github.com/cyberark/SkyWrapper): Tool helps to discover suspicious creation forms and uses of temporary tokens in AWS.
+* [Smogcloud](https://github.com/BishopFox/smogcloud): Find cloud assets that no one wants exposed.
+* [Steampipe](https://github.com/turbot/steampipe): A Postgres FDW that maps APIs to SQL, plus suites of [API plugins](https://hub.steampipe.io/plugins) and [compliance mods](https://hub.steampipe.io/mods) for AWS/Azure/GCP and many others.
+* [Terrascan](https://github.com/accurics/terrascan): Detect compliance and security violations across Infrastructure as Code to mitigate risk before provisioning cloud native infrastructure.
+* [tfsec](https://github.com/liamg/tfsec): Static analysis powered security scanner for Terraform code.
+* [Zeus](https://github.com/DenizParlak/Zeus): AWS Auditing & Hardening Tool.
+
+## 8.2 Container  Tools
+
+* [CDK]([ https://github.com/cdk-team/CDK/wiki/CDK-Home-CN](https://github.com/cdk-team/CDK/wiki/CDK-Home-CN)):CDK是一款为容器环境定制的渗透测试工具，在已攻陷的容器内部提供零依赖的常用命令及PoC/EXP。集成Docker/K8s场景特有的 逃逸、横向移动、持久化利用方式，插件化管理
+* [ScoutSuite](https://github.com/nccgroup/ScoutSuite):ScoutSuite: 云安全审计工具, 添加 Kubernetes 支持
+* [Kubeeye]([ https://github.com/kubesphere/kubeeye](https://github.com/kubesphere/kubeeye)):Kubernetes开源安全工具：kubeeye
+* [auditkube](https://github.com/opszero/auditkube): Audit for for EKS, AKS and GKE for HIPAA/PCI/SOC2 compliance and cloud security.
+* [Falco](https://github.com/falcosecurity/falco): Container runtime security.
+* [mkit](https://github.com/darkbitio/mkit): Managed kubernetes inspection tool.
+* [Open policy agent](https://www.openpolicyagent.org/): Policy-based control tool.
+
+## 8.3 SaaS  Tools
+
+* [ S3cret Scanner]([ https://github.com/Eilonh/s3crets_scanner](https://github.com/Eilonh/s3crets_scanner)):S3 公开存储桶密钥扫描工具
+* [aws-allowlister](https://github.com/salesforce/aws-allowlister): Automatically compile an AWS Service Control Policy with your preferred compliance frameworks.
+* [binaryalert](https://github.com/airbnb/binaryalert): Serverless S3 yara scanner.
+* [cloudsplaining](https://github.com/salesforce/cloudsplaining): An AWS IAM Security Assessment tool that identifies violations of least privilege and generates a risk-prioritized report.
+* [Cloud Guardrails](https://github.com/salesforce/cloud-guardrails): Rapidly cherry-pick cloud security guardrails by generating Terraform files that create Azure Policy Initiatives.
+* [Function Shield](https://github.com/puresec/FunctionShield): Protection/destection lib of aws lambda and gcp function.
+* [FestIN](https://github.com/cr0hn/festin): S3 bucket finder and content discover.
+* [GCPBucketBrute](https://github.com/RhinoSecurityLabs/GCPBucketBrute): A script to enumerate Google Storage buckets.
+* [IAM Zero](https://github.com/common-fate/iamzero): Detects identity and access management issues and automatically suggests least-privilege policies.
+* [Lambda Guard](https://github.com/Skyscanner/LambdaGuard): AWS Lambda auditing tool.
+* [Policy Sentry](https://github.com/salesforce/policy_sentry): IAM Least Privilege Policy Generator.
+* [S3 Inspector](https://github.com/kromtech/s3-inspector): Tool to check AWS S3 bucket permissions.
+* [Serverless Goat](https://github.com/OWASP/Serverless-Goat): A serverless application demonstrating common serverless security flaws.
+* [SkyArk](https://github.com/cyberark/SkyArk): Tool to helps to discover, assess and secure the most privileged entities in Azure and AWS.
+
+## 8.4 Penetration Testing  Tools
+
+* [CF](https://github.com/teamssix/cf):CF 是一个云环境利用框架，适用于在红队场景中对云上内网进行横向、SRC 场景中对 Access Key 即访问凭证的影响程度进行判定、企业场景中对自己的云上资产进行自检等等
+* [trufflehog]([ https://github.com/trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog)):trufflehog是一款可以帮助开发人员检测他们在GitHub上发布的项目是否已经不小心泄漏了任何秘密密钥。包含 600 多个凭证检测器，支持针对其各自 API 进行主动验证
+* [Packer Fuzzer]([ https://github.com/rtcatc/Packer-Fuzzer](https://github.com/rtcatc/Packer-Fuzzer)):一款针对Webpack等前端打包工具所构造的网站进行快速、高效安全检测的扫描工具
+* [ccat](https://github.com/RhinoSecurityLabs/ccat): Cloud Container Attack Tool.
+* [CloudBrute](https://github.com/0xsha/CloudBrute): A multiple cloud enumerator.
+* [cloudgoat](https://github.com/RhinoSecurityLabs/cloudgoat): "Vulnerable by Design" AWS deployment tool.
+* [Leonidas](https://github.com/FSecureLABS/leonidas): A framework for executing attacker actions in the cloud.
+* [Sadcloud](https://github.com/nccgroup/sadcloud): Tool for spinning up insecure AWS infrastructure with Terraform.
+* [TerraGoat](https://github.com/bridgecrewio/terragoat): Bridgecrew's "Vulnerable by Design" Terraform repository.
+* [WrongSecrets](https://github.com/commjoen/wrongsecrets): A vulnerable app which demonstrates how to not use secrets. With AWS/Azure/GCP support.
+
+## 9 CSP Cloud Vulnerability :books:
+
+* [cloudvulndb: The Open Cloud Vulnerability& Security Issue Database](https://www.cloudvulndb.org/)
+* [云鼎漏洞库](https://cloudsec.tencent.com/info/vuldb.html)
+
+## 10 ATT\&CK
+
+* [云鼎云安全攻防矩阵](https://cloudsec.tencent.com/home/)
+
+* [云上容器ATT&CK攻防](https://developer.aliyun.com/article/765449)
+* [Threat matrix for Kubernetes](https://www.microsoft.com/en-us/security/blog/2020/04/02/attack-matrix-kubernetes/)
+* [Mitre Attack](https://attack.mitre.org/)

@@ -1,4 +1,4 @@
-<h1 align="center">Awesome Cloud Security </h1>
+<h1 align="center">Cloud Security Guides</h1>
 <p align="center">
 
 
@@ -7,7 +7,7 @@
 
 
 
-Awesome Cloud Security 是一个用来收集云计算安全研究期间发现的优秀资源的项目。欢迎大家一起对云安全资源进行贡献与补充。
+Cloud Security Guides 是一个用来收集云计算安全研究期间发现的优秀资源的项目。欢迎大家一起对云安全资源进行贡献与补充。
 
 
 

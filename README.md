@@ -345,7 +345,7 @@ Cloud Security Guides 是一个用来收集云计算安全研究期间发现的�
 * [Mitre Attack](https://attack.mitre.org/)
 
 ## 11 云鼎实验室云安全全景图&攻防矩阵
-### 云安全全景图
+### 云原生安全全景图
 
 ![](https://github.com/GRQForCloud/cloud-security-guides/blob/master/img/Cloud%20Security%20Knowledge.png?raw=true)
 

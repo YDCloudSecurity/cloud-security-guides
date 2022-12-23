@@ -5,9 +5,9 @@
 
 
 
+Cloud Security Guides 是由腾讯安全云鼎实验室维护的一个云计算安全知识库项目，用来收集云安全研究期间发现的优秀资源、文献、典型云安全漏洞以及知识图谱等，并以云参考模型架构为依托，将云上安全资源进行分类编排，为云上安全能力建设工作提供一份参考指南。Cloud Security Guides中提供的云鼎实验室云安全全景图&攻防矩阵，是由云鼎实验室根据云安全研究所总结的云上知识图谱以及云产品攻防抽象模型，可以指导云上安全工作开展，并为云产品安全能力建设提供帮助。
 
-
-Cloud Security Guides 是一个用来收集云计算安全研究期间发现的优秀资源的项目。欢迎大家一起对云安全资源进行贡献与补充。
+Cloud Security Guides is a cloud computing security knowledge base project maintained by Tencent Security Cloud YUNDING LAB. It is used to collect excellent resources, literature, typical cloud security vulnerabilities and knowledge graphs discovered during cloud security research, and is based on the cloud reference model architecture As a basis, the security resources on the cloud are classified and arranged to provide a reference guide for the construction of security capabilities on the cloud. The cloud security panorama & attack-defense matrix of YUNDING LAB provided in Cloud Security Guides is a cloud knowledge graph and an abstract model of cloud product attack and defense summarized by YUNDING LAB based on the Cloud Security Research Institute, which can guide the development of security work on the cloud. And provide help for cloud product security capacity building.
 
 
 
